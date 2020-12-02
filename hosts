@@ -1,0 +1,10 @@
+
+[load_balancers]
+frontend1.aa21.internal
+
+[app_servers]
+app1.aa21.internal
+app2.aa21.internal
+
+[database_servers]
+appdb1.aa21.internal
