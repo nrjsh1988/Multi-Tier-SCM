@@ -1,7 +1,4 @@
-- name: collect facts about system services
-  service_facts:
-  register: services_state
-
-- name: Debug
-  debug:
-    var: services_state
+- name: Get database IP address with hostvars for app servers
+  hosts: database_servers
+  gather_facts: true
+  
